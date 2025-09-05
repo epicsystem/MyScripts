@@ -1,4 +1,4 @@
-Aşağıdaki PowerShell Script ile bilgisayar adından, o bilgisayarı kullanan kişinin user name'ini, user OU'sunu ve computer OU'sunu bulabilirsiniz.
+Aşağıdaki PowerShell Script ile computer name'den, o bilgisayarı kullanan kişinin user name'ini, user OU'sunu ve computer OU'sunu bulabilirsiniz.
 
 Scripti CheckComputer.ps1 olarak kaydebilirsiniz 
 
