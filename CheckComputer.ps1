@@ -85,7 +85,7 @@ function CheckComputer {
                         }
                     }
                     catch {
-                        # Kullanıcı bulunamazsa sessizce devam et
+                        # Kullanıcı bulunamazsa devam et
                     }
                 }
             }
