@@ -1,15 +1,3 @@
-Aşağıdaki PowerShell Script ile computer name'den, o bilgisayarı kullanan kişinin user name'ini, user OU'sunu ve computer OU'sunu bulabilirsiniz.
-
-Scripti CheckComputer.ps1 olarak kaydebilirsiniz 
-
-Kullanım için PowerShell'den CheckComputer.ps1 COMPUTER1923 şeklinde sorgulayabilirsiniz.
-
-Son 30 günde bilgisayara giriş yapan kullanıcıları tespit eder,
-Windows Event Log'dan Logon Type 2 (Interactive logon) kayıtlarını analiz eder,
-Her kullanıcının hangi OU'da olduğunu gösterir.
-
-# CheckComputer.ps1......................
-
 param(
     [Parameter(Mandatory=$false)]
     [string]$ComputerName
