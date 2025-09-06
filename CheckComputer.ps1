@@ -2,7 +2,7 @@ Aşağıdaki PowerShell Script ile computer name'den, o bilgisayarı kullanan ki
 
 Scripti CheckComputer.ps1 olarak kaydebilirsiniz 
 
-Kullanım için PowerShell'den CheckComputer.ps1 COMPUTER1923 gibi sorgulayabilirsiniz.
+Kullanım için PowerShell'den CheckComputer.ps1 COMPUTER1923 şeklinde sorgulayabilirsiniz.
 
 Son 30 günde bilgisayara giriş yapan kullanıcıları tespit eder,
 Windows Event Log'dan Logon Type 2 (Interactive logon) kayıtlarını analiz eder,
@@ -18,7 +18,7 @@ param(
 # Yardım mesajı
 if ($ComputerName -eq "/?" -or $ComputerName -eq "" -or $ComputerName -eq $null) {
     Write-Host "Kullanım: CheckComputer.ps1 ComputerName" -ForegroundColor Yellow
-    Write-Host "Örnek: CheckComputer.ps1 COMPUTER01" -ForegroundColor Green
+    Write-Host "Örnek: CheckComputer.ps1 COMPUTER1923" -ForegroundColor Green
     exit
 }
 
