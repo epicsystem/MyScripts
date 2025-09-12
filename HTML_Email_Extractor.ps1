@@ -1,8 +1,8 @@
 # Bu PowerShell Script HTML dosyasından .com ile biten e-posta adreslerini çıkarır. 
 # Belirtilen HTML dosyasını okuyarak içindeki .com ile biten e-posta adreslerini bulur ve bir txt dosyasına kaydeder.
     
-# PARAMETER InputFile Analiz edilecek HTML dosyasının tam yoludur.
-# PARAMETER OutputFile Bulunan e-postaların kaydedileceği dosya yolu
+# InputFile Analiz edilecek HTML dosyasının tam yoludur.
+# OutputFile Bulunan e-postaların kaydedileceği dosya yoludur.
     
 # Kullanımı
 # .\HTML_Email_Extractor.ps1
